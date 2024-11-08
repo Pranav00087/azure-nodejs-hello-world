@@ -51,7 +51,7 @@ app.options('*', cors());
 // ***************************************************************************
 
 // Configure routes
-const router = express.Router();
+const router = express.Route();// this change i have made for my understanding purpose 
 
 // Hello World for index page
 app.get('/', function (req, res) {
